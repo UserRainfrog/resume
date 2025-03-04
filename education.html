@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ResumeWebsite</title>
+    <link rel="stylesheet" href="styleEdu.css">
+</head>
+<body>
+    <div class = "main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">HopeTepei</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="volun.html">VOLUNTEER EXPERIENCE</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <form onsubmit="return searchSite()">
+                    <input class="srch" type="text" id="searchInput" placeholder="Search..." >
+                    <button class="btn" id="searchBtn" type="submit">Search</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="content" id="school">
+            <h1>Hope Tepei's <br><span>Educational</span><br> Experience</h1>
+            
+                <br>
+
+                <div class = "form" >
+                    <h2>Seckinger High School</h2>
+                    <p class = "par">Relevant Coursework: Computer Science, Foundations of Artificial Intelligence</p>
+                </div>
+
+                <div class = "ung" >
+                    <h2>University of North Georgia</h2>
+                    <p class = "par">Bachelor, Computer Science<br>Expected Graduation Date: March 2027<br>Relevant Coursework: Computer Science I, II; Computer Ethics</p>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <form action="search-results.html" onsubmit="saveSearchTerm()">
+        <input type="text" id="searchInput" placeholder="Search...">
+    </form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ResumeWebsite</title>
+    <link rel="stylesheet" href="styleProj.css">
+</head>
+<body>
+    <div class = "main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">HopeTepei</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="volun.html">VOLUNTEER EXPERIENCE</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <form onsubmit="return searchSite()">
+                    <input class="srch" type="text" id="searchInput" placeholder="Search..." >
+                    <button class="btn" id="searchBtn" type="submit">Search</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="content">
+            <h1>Hope Tepei's <br><span>Projects</span><br> </h1>
+
+                <div class = "form" id="resume">
+                    <h2>Resume Website:</h2>
+                    <p class = "par">Built using Visual Studio Code, Terminal, GitHub</p>
+                </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <form action="search-results.html" onsubmit="saveSearchTerm()">
+        <input type="text" id="searchInput" placeholder="Search...">
+    </form>
+</body>
+</html>
+
