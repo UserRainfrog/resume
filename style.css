@@ -181,9 +181,10 @@ ul li a:hover{
     font-size: 60px;
 }
 
+/*Black, see-through box background for skills*/
 .form{
     width: 240px;
-    height: 380px;
+    height: 400px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
     position: absolute; 
     top: -20px;
@@ -192,6 +193,7 @@ ul li a:hover{
     padding: 25px;
 }
 
+/*Objective outline*/
 .form h2{
     width: 220px;
     font-family: sans-serif;
@@ -204,6 +206,7 @@ ul li a:hover{
     padding: 8px;
 }
 
+/*text under objective box*/
 .form .par{
     padding-right: 18px;
     padding-top: 12px;
@@ -215,9 +218,10 @@ ul li a:hover{
     text-align: center;
 }
 
+/*White, see-through box background for skills*/
 .skill{
     width: 380px;
-    height: 240px;
+    height: 260px;
     background: linear-gradient(to top, rgba(255, 255, 255, 0.8)50%, rgba(255, 255, 255, 0.8)50%);
     position: absolute; 
     top: 270px;
@@ -225,7 +229,7 @@ ul li a:hover{
     border-radius: 10px;
     padding: 25px;
 }
-
+/*Skills outline*/
 .skill h2{
     width: 355px;
     font-family: sans-serif;
@@ -237,7 +241,7 @@ ul li a:hover{
     margin: 2px;
     padding: 8px;
 }
-
+/*text under skills box*/
 .skill .par{
     padding-right: 20px;
     padding-top: 30px;
