@@ -3,6 +3,9 @@
     padding: 0;
 
 }
+html, body{
+    background-color: #f3afaf9d;
+}
 
 .main{
     width: 100%;

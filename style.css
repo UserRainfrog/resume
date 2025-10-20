@@ -1,14 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
+html, body{
+    background-color: #f3afaf9d;
+}
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(3.png);
+    background-image: url(3.png);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+
     height: 109vh;
 }   
 

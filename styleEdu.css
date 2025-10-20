@@ -3,7 +3,9 @@
     padding: 0;
 
 }
-
+html, body{
+    background-color: #d0aff3d3;
+}
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.png);
@@ -181,9 +183,9 @@ ul li a:hover{
     font-size: 60px;
 }
 
-.form{
+.ung{
     width: 720px;
-    height: 150px;
+    height: 230px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
     position: absolute; 
     top: 0px;
@@ -192,7 +194,7 @@ ul li a:hover{
     padding: 25px;
 }
 
-.form h2{
+.ung h2{
     width: 710px;
     font-family: sans-serif;
     text-align: center;
@@ -204,7 +206,7 @@ ul li a:hover{
     padding: 8px;
 }
 
-.form .par{
+.ung .par{
     padding-right: 18px;
     padding-top: 30px;
     padding-bottom: 25px;
@@ -215,9 +217,9 @@ ul li a:hover{
     text-align: center;
 }
 
-.ung{
+.form{
     width: 1100px;
-    height: 170px;
+    height: 100px;
     background: linear-gradient(to top, rgba(33, 92, 65, 0.8)50%, rgba(33, 92, 65, 0.8)50%);
     position: absolute; 
     top: 320px;
@@ -226,7 +228,7 @@ ul li a:hover{
     padding: 25px;
 }
 
-.ung h2{
+.form h2{
     width: 1080px;
     font-family: sans-serif;
     text-align: center;
@@ -238,7 +240,7 @@ ul li a:hover{
     padding: 8px;
 }
 
-.ung .par{
+.form .par{
     padding-right: 20px;
     padding-top: 30px;
     padding-bottom: 25px;
